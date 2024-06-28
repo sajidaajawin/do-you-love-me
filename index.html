@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Screenshot 2024-04-05 024623.png">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="hearder-text">Do you Love me Aboody?</h1>
+        </div>
+      <div class="gift-container">
+         <img src="https://media.giphy.com/media/hm8GqsZ2RteDRWW7OS/giphy.gif?cid=790b7611plgxkv8116b6qv8vg1zml78tp3o31hxoqdxy4m6t&ep=v1_stickers_search&rid=giphy.gif&https://tenor.com/view/milk-and-mocha-gif-4931412049723616980ct=s">
+       <div class="buttons">
+         <button class="btn" id="yes" onclick="nextPage()">Yes</button>
+         <button class="btn" id="no" onmouseover="moveButton()" onclick="moveButton()">No</button>
+       
+       <script>
+        function nextPage(){
+            window.location.href ="yes.html";
+        }
+        function moveButton(){
+            var x = Math.random() * (window.innerWidth - document.getElementById("no").offsetWidth) - 85 ;
+            var y = Math.random() * (window.innerHeight - document.getElementById("no").offsetHeight) - 48 ;
+            document.getElementById("no").style.left = `${x}px`;
+            document.getElementById("no").style.top = `${y}px`;
+        }
+       </script>
+       </div>
+    </div>
+    
+</body>
+</html>

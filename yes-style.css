@@ -1,0 +1,23 @@
+
+.hearder-text{
+    font-family: "Nunito";
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 0px;
+    
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    background-color: #030b53;
+}
+.gft-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
